@@ -17,6 +17,7 @@ module.exports = {
   },
   social: {
     github: 'https://github.com/chandrainf',
+    linkedin: 'https://https://www.linkedin.com/in/chandra-pratama-putra/',
     //facebook: 'https://www.facebook.com/chandrainf',
     //twitter: 'https://twitter.com/chandrainf',
     //instagram: 'https://www.instagram.com/chandrainf/',
