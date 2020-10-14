@@ -9,7 +9,7 @@ import { useWindowSize } from '../../../utils/hooks';
 import Config from '../../../../config';
 
 const { Content } = Layout;
-const { github } = Config.social;
+const { github, linkedin } = Config.social;
 
 const DomContent = () => (
   <aside>
@@ -26,6 +26,9 @@ const DomContent = () => (
       <div className="centerAlign box">
         <a href={github} target="_blank" rel="noopener noreferrer">
           <FA name="github" />
+        </a>
+        <a href={linkedin} target="_blank" rel="noopener noreferrer">
+          <FA name="linkedin" />
         </a>
       </div>
       <ul className={`box ${style.badge} contactBlock`}>
