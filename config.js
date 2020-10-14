@@ -1,8 +1,8 @@
 module.exports = {
   pathPrefix: '',
-  siteUrl: 'https://rolwinreevan.com',
+  siteUrl: 'https://https://chandra-pratama-putra.netlify.app/',
   siteTitle: 'Chandra Pratama Putra',
-  siteDescription: 'Logbook of a selg taught programmer',
+  siteDescription: 'Logbook of a self taught programmer',
   author: 'Chandra Pratama Putra',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
@@ -17,9 +17,9 @@ module.exports = {
   },
   social: {
     github: 'https://github.com/chandrainf',
-    facebook: 'https://www.facebook.com/chandrainf',
-    twitter: 'https://twitter.com/chandrainf',
-    instagram: 'https://www.instagram.com/chandrainf/',
+    //facebook: 'https://www.facebook.com/chandrainf',
+    //twitter: 'https://twitter.com/chandrainf',
+    //instagram: 'https://www.instagram.com/chandrainf/',
     rss: '/rss.xml',
   },
   contactFormUrl:
