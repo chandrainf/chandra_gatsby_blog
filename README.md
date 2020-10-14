@@ -1,5 +1,5 @@
-<h1 align="center">
-  Gatsby's DoLim Portfolio template using <a href='https://ant.design/' target='_blank'>ant-design</a>
+<h1 align="left">
+  Gatsby's Chandra Pratanma Portfolio template using <a href='https://ant.design/' target='_blank'>ant-design</a>
 </h1>
 
 This template is customized gatsby portfolio template.  
@@ -8,5 +8,5 @@ Thank you for providing such a good starter.
 
 ## Difference
 
-1. Uses TypeSscript
+1. Uses TypeScript
 2. and working on more things...
