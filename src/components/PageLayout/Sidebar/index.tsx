@@ -9,7 +9,7 @@ import { useWindowSize } from '../../../utils/hooks';
 import Config from '../../../../config';
 
 const { Content } = Layout;
-const { facebook, github, instagram, twitter } = Config.social;
+const { github } = Config.social;
 
 const DomContent = () => (
   <aside>
@@ -17,24 +17,15 @@ const DomContent = () => (
     <div className={`${style.name} centerAlign`}>
       <div className={`${style.boxName} centerAlign`}>
         <h2>
-          Chandra <span> Pratama </span>
+          <span>Chandra</span> <span> Pratama </span>
         </h2>
       </div>
       <div className={`${style.badge} ${style.badgeGray}`}>
         Self Taught Programmer
       </div>
       <div className="centerAlign box">
-        <a href={facebook} target="_blank" rel="noopener noreferrer">
-          <FA name="facebook-f" />
-        </a>
-        <a href={twitter} target="_blank" rel="noopener noreferrer">
-          <FA name="twitter" />
-        </a>
         <a href={github} target="_blank" rel="noopener noreferrer">
           <FA name="github" />
-        </a>
-        <a href={instagram} target="_blank" rel="noopener noreferrer">
-          <FA name="instagram" />
         </a>
       </div>
       <ul className={`box ${style.badge} contactBlock`}>
@@ -42,7 +33,7 @@ const DomContent = () => (
           <span>
             <FeatherIcon.Calendar size="19" />{' '}
           </span>
-          &nbsp; &nbsp; Marth 13,1992
+          &nbsp; &nbsp; March 13,1992
         </li>
         <li className={`${style.contactBlockItem}`}>
           <span>
@@ -132,3 +123,14 @@ export const Sidebar404 = (props: { children: any }) => {
 };
 
 export default Sidebar;
+
+/*
+<a href={instagram} target="_blank" rel="noopener noreferrer">
+  <FA name="instagram" />
+</a>
+<a href={facebook} target="_blank" rel="noopener noreferrer">
+  <FA name="facebook-f" />
+</a>
+<a href={twitter} target="_blank" rel="noopener noreferrer">
+  <FA name="twitter" />
+</a>
