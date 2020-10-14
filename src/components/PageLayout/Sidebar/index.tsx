@@ -134,3 +134,4 @@ export default Sidebar;
 <a href={twitter} target="_blank" rel="noopener noreferrer">
   <FA name="twitter" />
 </a>
+*/
