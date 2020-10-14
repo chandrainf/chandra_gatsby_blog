@@ -19,7 +19,6 @@ const Contact = () => (
           'Chandra',
           'Pratama',
           'Putra',
-          'Bogor',
           'Self taught programmer',
           'Javascript',
           'ReactJS',
