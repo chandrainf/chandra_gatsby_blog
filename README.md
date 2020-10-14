@@ -1,5 +1,5 @@
 <h1 align="left">
-  Gatsby's Chandra Pratanma Portfolio template using <a href='https://ant.design/' target='_blank'>ant-design</a>
+  Gatsby's Chandra Pratama Portfolio template using <a href='https://ant.design/' target='_blank'>ant-design</a>
 </h1>
 
 This template is customized gatsby portfolio template.  
