@@ -9,7 +9,7 @@ import { useWindowSize } from '../../../utils/hooks';
 import Config from '../../../../config';
 
 const { Content } = Layout;
-const { github } = Config.social;
+const { github, linkedin } = Config.social;
 
 const DomContent = () => (
   <aside>
@@ -24,6 +24,9 @@ const DomContent = () => (
         Self Taught Programmer
       </div>
       <div className="centerAlign box">
+      <a href={linkedin} target="_blank" rel="noopener noreferrer">
+        <FA name="linkedin" />
+        </a>
         <a href={github} target="_blank" rel="noopener noreferrer">
           <FA name="github" />
         </a>
@@ -134,3 +137,5 @@ export default Sidebar;
 <a href={twitter} target="_blank" rel="noopener noreferrer">
   <FA name="twitter" />
 </a>
+
+*/
